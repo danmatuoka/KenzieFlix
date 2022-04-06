@@ -1,0 +1,87 @@
+.logo-bg {
+    display: flex;
+    justify-content: center;
+    padding-top: 42px;
+    background-color: black;
+}
+
+body {
+    background-color: black;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.titulo {
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+}
+
+.titulo h1 {
+    color: white;
+    font-size: 32px;
+    line-height: 42px;
+    font-weight: 600;
+}
+
+.container {
+    max-width: 700px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    background-color: black;
+    
+    
+}
+
+.usuario {
+    max-width: 160px;
+    text-align: center;
+    color: #9C9C9C;
+    
+    
+    
+}
+
+.usuario img {
+    border: transparent;
+    border-radius: 6px;
+    transition: border 0.3s linear;
+    
+    
+}
+
+.usuario img:hover {
+    border: 1px solid #ECECEC;
+    transform: scale(1.1);
+    
+    
+}
+
+.usuario p {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 600;
+}
+
+.button a {
+    width: 206px;
+    height: 50px;
+    border: 1.5px solid #ECECEC;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 80px;
+    text-decoration: none;
+    color: #ECECEC;
+    font-weight: 600;
+}
+
+
+.button a:hover {
+    background-color: #ECECEC;
+    color: black;
+    transition: 0.8s;
+}
+
