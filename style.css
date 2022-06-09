@@ -5,6 +5,11 @@
     background-color: black;
 }
 
+.logo-bg img:hover {
+    transform: scale(1.2);
+    transition: 600ms;
+}
+
 body {
     background-color: black;
     font-family: 'IBM Plex Sans', sans-serif;
@@ -29,31 +34,45 @@ body {
     margin: 0 auto;
     justify-content: space-around;
     background-color: black;
-    
-    
+
 }
 
 .usuario {
     max-width: 160px;
+    max-height: 160px;
     text-align: center;
     color: #9C9C9C;
-    
-    
-    
 }
 
-.usuario img {
-    border: transparent;
-    border-radius: 6px;
-    transition: border 0.3s linear;
-    
-    
+.usuario img {   
+    border-radius: 10px;
+    border: solid 2px transparent;  
+
 }
 
 .usuario img:hover {
-    border: 1px solid #ECECEC;
-    transform: scale(1.1);
-    
+    border: solid 2px white;
+
+}
+
+.usuario:hover p {
+    color: white;
+}
+
+svg {
+    max-width: 160px;
+    max-height: 160px;
+    padding: 50px;
+    border: solid 2px transparent;
+    border-radius: 10px;
+}
+
+svg:hover {
+    border: solid 2px white;
+}
+
+svg:hover path {
+    stroke: white;
     
 }
 
@@ -82,6 +101,6 @@ body {
 .button a:hover {
     background-color: #ECECEC;
     color: black;
-    transition: 0.8s;
+    transition: 0.5s;
 }
 
